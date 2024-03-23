@@ -1,0 +1,462 @@
+/*Body*/
+body{
+	font-family: sans-serif, Arial;
+}
+/*Nav*/
+nav div div a img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+nav.navbar{
+	background-color: #fff;
+   position: fixed;
+   width: 100%;
+   height: 80px;
+   z-index: 100;
+}
+nav.sticky{
+	background-color: #fff;
+	height: 60px;
+}
+nav.sticky img{
+	height: 60px;
+	width: 60px;
+	align-items: center;
+	border-radius: 50%;
+}
+nav.sticky ul li a{
+	color: #000;
+}
+nav.sticky ul li a:hover{
+	color: #999;
+}
+nav.navbar div div.navbar-collapse ul{
+	display: flex;
+    margin-right: 0;
+    justify-content: flex-end;
+    width: 100%;
+}
+nav.navbar div div.navbar-collapse ul li a{
+	font-weight: 600;
+	color: #000;
+	font-size: 18px;
+	margin: 0 5px;
+}
+nav.navbar div div.navbar-collapse ul li a:hover{
+	color: #999;
+}
+/* Main */
+main{
+	padding: 90px 10px 10px 10px;
+}
+main div.welcome{
+	background-color: #333338;
+	padding: 30px 80px 0 100px;
+}
+main h1{
+	font-size: 40px;
+	color: #0BAA66;
+	line-height: 80px;
+}
+main p{
+	font-size: 20px;
+	text-align: left;
+	color: #fff;
+}
+main div.main-img{
+	padding: 0;
+}
+main div.main-img img{
+	width: 100%;
+}
+main div#circles{
+	display: flex;
+	justify-content: space-around;
+	margin: 70px auto;
+	padding: 0 30px;
+}
+main div#circles div.circle{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border: .5px solid #000;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: 0 -2px 7px #000;
+	background-color: #fff;
+}
+main div#circles div.circle img{
+   width: 70px;
+   height: 70px;
+   margin: 0 0 0 0;
+   margin: 8px 0 0 0;
+}
+main div#circles div.circle p{
+   color: #000;
+   font-size: 14px;
+   text-align: center;
+   font-weight: 600;
+}
+main div.about-us-text{
+	background-color: #333338;
+	padding: 30px 40px 30px 40px;
+}
+main div.about-us-img{
+	padding: 0;
+}
+main div.about-us-img img{
+	width: 100%;
+	height: 100%;
+}
+main div.about-us-text h2{
+   color: #0BAA66;
+   line-height: 60px;
+}
+main div.about-us-text p{
+   font-size: 16.8px;
+	color: #fff;
+	letter-spacing: .5px;
+}
+/* Services */
+main div#services-container{
+	margin: 50px 0; 
+}
+main div#services-container div.container-fluid{
+	padding: 0;
+}
+main div#services-container div div#banner-service{
+	width: 100%;
+	padding: 200px 0;
+	text-align: center;
+   background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+   background-position: center;
+   
+}
+main div#services-container div div#banner-service h3{
+	font-size: 42px;
+   color: #fff;
+}
+/* Services */
+main div#services{
+	margin: 30px 0;
+}
+main div#services div.row{
+	width: 100%;
+	padding: 10px 50px;
+}
+main div#services div.row div.col-sm-6{
+	padding: 20px 120px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+main div#services div.row div.col-sm-6 img{
+	width: 100%;
+	height: 200px;
+}
+main div#services div.row div.col-sm-6 p{
+	color: #000;
+	font-size: 22px;
+	text-align: center;
+}
+main div#services div.row div.col-sm-6 p#ne{
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
+/* Portafolio */
+div#portafolio div.row{
+	width: 100%;
+}
+div#portafolio div.row div#banner-portafolio{
+	background-image: url(https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-position: center;
+  	padding: 200px 0;
+}
+div#portafolio div.row div#banner-portafolio h3{
+   color: #fff;
+   font-size: 42px;
+   text-align: center;
+}
+div#portafolio div#row-info div.info-portafolio{
+	padding: 20px 100px;
+}
+div#portafolio div#row-info div.info-portafolio p{
+	color: #000;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 500;
+}
+div#portafolio div.row-cards{
+   display: flex;
+   justify-content: space-around;
+}
+div#portafolio div.row-cards div.card{
+	margin: 30px 0;
+   border: none !important;
+}
+div#portafolio div.row-cards div.card:hover{
+	cursor: pointer;
+}
+div#portafolio div.row-cards div.card img{
+	width: 100%;
+	height: 200px;
+	border-radius: 2px;
+	margin-top: 10px;
+}
+div#portafolio div.row-cards div.card div.overlay{
+	opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+div#portafolio div.row-cards div.card div.overlay p{
+	font-size: 25px;
+	font-weight: bold;
+}
+div#portafolio div.row-cards div.card:hover img{
+	opacity: 0.2;
+	transition: opacity .8s;
+}
+div#portafolio div.row-cards div.card:hover div.overlay{
+	opacity: 1;
+}
+div#portafolio div.row-cards div.card:hover div.overlay p{
+	color: #000;
+	margin-bottom: 60px;
+}
+div#portafolio div.row-cards div.card div.card-body p{
+   color: #000;
+   font-weight: bold;
+   text-align: center;
+}
+/*Contacto */
+.contact-banner h4{
+	color: #fff;
+	text-align: center;
+	font-size: 42px;
+}
+.contact-banner{
+	padding: 200px 0;
+	background-image: url(imgs/contact-banner.avif);
+	background-position: center;
+}
+#contact-info{
+	padding: 20px 110px;
+}
+#contact-info p{
+	color: #000;
+	font-size: 22px;
+	text-align: center;
+	font-weight: 500;
+}
+#form-contact{
+	width: 50%;
+   margin: 50px auto 20px;
+   padding: 20px 40px;
+   background-color: #eee;
+   background-image: url(https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#form-contact input, label, select, textarea{
+	display: block;
+	color: #fff;
+}
+#form-contact input, select, textarea{
+	width: 100%;
+   padding: 6px 10px;
+   font-size: 15px;
+   margin-bottom: 15px;
+   font-weight: 500;
+   color: #000;
+   background-color: #fdfdfd;
+   outline: none;
+   border: none;
+}
+#form-contact select{
+	margin-bottom: 15px;
+}
+#form-contact label{
+	font-size: 19px;
+	font-weight: 600;
+}
+#form-contact #submit{
+	width: 20%;
+	margin: 20px auto 10px auto;
+	background-color: #1e40a1;
+	color: #fff;
+	border: none;
+}
+/* Footer */
+footer{
+	width: 100%;
+	margin-top: 20px;
+}
+div#follow{
+	width: 100%;
+
+}
+footer h5{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	line-height: 46px;
+	color: #fff;
+	background-color: #000;
+}
+#follow ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 15px 0 0 0;
+}
+#follow ul li a i{
+   font-size: 27px;
+   color: #000;
+}
+#follow ul li a:hover i{
+	opacity: .8;
+}
+@media screen and (max-width: 1184px){
+	main div.welcome{
+		padding: 20px;
+	}
+	main h1{
+		font-size: 28px;
+	}
+	main p{
+	font-size: 17px;
+   }
+}
+@media screen and (max-width: 995px){
+   main h1{
+   	line-height: 50px;
+   }
+   main div#services div.row div.col-sm-6{
+	   padding: 20px 80px;
+   }
+   main div#services div.row div.col-sm-6 p{
+   	font-size: 18px;
+   }
+   
+}
+@media screen and (max-width: 992px){
+	nav.navbar-expand-lg a.navbar-brand{
+   	display: none;
+   }
+   nav.navbar-expand-lg ul{
+   	background-color: #fff;
+   	width: 100%;
+   	margin-top: 10px;
+   }
+   nav.navbar-expand-lg ul li{
+      margin: 10px auto;
+   }
+}
+@media screen and (max-width: 950px){
+	main div.welcome{
+		padding: 10px 15px;
+	}
+}
+@media screen and (max-width: 900px){
+   main div#services div.row div.col-sm-6{
+	   padding: 20px 50px;
+   }
+}
+@media screen and (max-width: 873px){
+	main h1, h2{
+		font-size: 25px;
+	}
+	main p{
+	   font-size: 16px;
+   }
+}
+@media screen and (max-width: 843px){
+	main h1, h2{
+		font-size: 22px;
+		line-height: 40px;
+	}
+	main p{
+		font-size: 14px;
+	}
+	main div#circles{
+		margin: 30px auto;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+	main div#circles div.circle{
+		margin: 0 20px;
+		width: 150px;
+		height: 150px;
+	}
+   main div#circles div.circle p{
+   	font-size: 12px;
+   }
+   #contact-info, div#portafolio div#row-info div.info-portafolio{
+   	padding: 10px 20px;
+   }
+   #contact-info p, div#portafolio div#row-info div.info-portafolio p{
+   	font-size: 16px;
+   }
+   main div#services div.row div.col-sm-6 p{
+   	font-size: 14px;
+   }
+   main div#services div.row div.col-sm-6 p#ne{
+   	font-size: 16px;
+   }
+}
+@media screen and (max-width: 790px){
+	#form-contact #submit{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 767px){
+   main div.main-img img{
+   	height: 100%;
+   }
+}
+@media screen and (max-width: 684px){
+	main div#circles div.circle{
+		margin: 0 5px;
+		width: 200px;
+	}
+	main div#circles div.circle p{
+		font-size: 16px;
+	}
+	#form-contact input, select, textarea{
+		font-size: 14px;
+		padding: 5px 6px;
+	}
+	#form-contact label{
+		font-size: 16px;
+   }
+}
+@media screen and (max-width: 582px){
+	main div#circles{
+		width: 100%;
+		flex-wrap: wrap;
+		padding: 0;
+	}
+	main div#circles div.circle{
+		width: 130px;
+	}
+	main div#circles div.circle p{
+		font-size: 13px;
+	}
+	#form-contact{
+		width: 70%;
+	}
+}
+@media screen and (max-width: 350px){
+	main div#services div.row{
+		padding: 0;
+	}
+	main div#services div.row div.col-sm-6{
+		padding: 20px 50px;
+	}
+}
